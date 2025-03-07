@@ -44,8 +44,12 @@ public class main{
             funcoes.excluirCliente(clientes, scanner);
             funcoes.reajustarId(clientes);
             break;
+            case "4":
+            funcoes.modificarCadastro(clientes, scanner);
+            break;
             case "5":
             funcoes.excluirTodos(clientes, scanner);
+            break;
         }
     }
     }
